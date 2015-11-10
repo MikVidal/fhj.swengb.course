@@ -6,7 +6,7 @@ import javafx.application.Application
 import javafx.fxml.{FXMLLoader, Initializable}
 import javafx.scene.{Parent, Scene}
 import javafx.stage.Stage
-import javafx.scene.image.Image;
+import javafx.scene.image.Image
 
 import scala.util.control.NonFatal
 
@@ -29,8 +29,8 @@ class JavaFxHelloworld extends javafx.application.Application {
 
   override def start(stage: Stage): Unit =
     try {
-      stage.setTitle("FXCalculator")
-      stage.getIcons().add(new Image("file:Calculator-icon.png"));
+      stage.getIcons().add(new Image("file:icon.png"))
+      stage.setTitle("Calculator")
       loader.load[Parent]() // side effect
       val scene = new Scene(loader.getRoot[Parent])
       stage.setScene(scene)
