@@ -1,3 +1,44 @@
+#orange {
+    -fx-background-color:#f89112;
+    -fx-border-style:solid;
+    -fx-border-width: 0.3px;
+    -fx-border-color: BLACK;
+    -fx-font-family: Helvetica Neue;
+    -fx-font-weight: lighter;
+}
+#light-grey{
+    -fx-background-color: #d6d7d9;
+    -fx-border-style:solid;
+    -fx-border-width: 0.3px;
+    -fx-border-color: BLACK;
+    -fx-font-family: Helvetica Neue;
+    -fx-font-weight: lighter;
+}
+
+#grey{
+    -fx-background-color:#cccdcf;
+    -fx-border-style:solid;
+    -fx-border-width: 0.3px;
+    -fx-border-color: BLACK;
+    -fx-font-family: Helvetica Neue;
+    -fx-font-weight: lighter;
+}
+#grey:active{
+    -fx-background-color:#b7b8ba;
+    -fx-border-style:solid;
+    -fx-border-width: 0.3px;
+    -fx-border-color: BLACK;
+    -fx-font-family: Helvetica Neue;
+    -fx-font-weight: lighter;
+}
+
+#black{
+    -fx-background-color: BLACK;
+    -fx-text-color:WHITE;
+    -fx-font-family: Helvetica Neue;
+    -fx-font-weight: lighter;
+}
+
 #green {
     -fx-background-color:
         linear-gradient(#f0ff35, #a9ff00),
