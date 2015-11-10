@@ -6,12 +6,11 @@ import javafx.application.Application
 import javafx.fxml.{FXMLLoader, Initializable}
 import javafx.scene.{Parent, Scene}
 import javafx.stage.Stage
-import javafx.scene.image.Image
 
 import scala.util.control.NonFatal
 
 /**
-  * A simple hello world example application<
+  * A simple hello world example application
   * for JavaFX.
   */
 object JavaFxHelloworld {
@@ -22,15 +21,14 @@ object JavaFxHelloworld {
 
 class JavaFxHelloworld extends javafx.application.Application {
 
-  val Fxml = "/fhj/swengb/lectures/l03/test.fxml"
+  val Fxml = "/fhj/swengb/lectures/l03/Helloworld.fxml"
   val Css = "fhj/swengb/lectures/l03/buttonstyles.css"
 
   val loader = new FXMLLoader(getClass.getResource(Fxml))
 
   override def start(stage: Stage): Unit =
     try {
-      stage.getIcons().add(new Image("file:icon.png"))
-      stage.setTitle("Calculator")
+      stage.setTitle("Helloworld")
       loader.load[Parent]() // side effect
       val scene = new Scene(loader.getRoot[Parent])
       stage.setScene(scene)
@@ -45,17 +43,12 @@ class JavaFxHelloworld extends javafx.application.Application {
 
 class HelloworldController extends Initializable {
 
-  //@FXML var displayTextField : TextField = _
-  //@FXML var btn1 : Button = _
-  //@FXML var btn2 : Button = _
-
   override def initialize(location: URL, resources: ResourceBundle): Unit = {
 
   }
 
   def clicked(): Unit = {
     println("clicked")
-    //displayTextField.setText("Jo this is the text" + System.currentTimeMillis())
   }
 
 }
