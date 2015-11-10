@@ -5,6 +5,8 @@
     /* font settings */
     -fx-font-size: 1.7em;
     -fx-font-weight: bold;
+    -fx-background: BLACK;
+    -fx-text-color: WHITE;
 }
 
 
