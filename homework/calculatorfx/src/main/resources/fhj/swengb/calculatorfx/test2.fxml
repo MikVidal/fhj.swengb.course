@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="304.0" prefWidth="226.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="304.0" prefWidth="226.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.calculatorfx.CalculatorFXController">
    <children>
       <Label id="result_field" fx:id="displayTextField" alignment="BOTTOM_RIGHT" layoutX="-4.0" layoutY="6.0" prefHeight="72.0" prefWidth="226.0" text="0" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <padding>
@@ -41,24 +41,24 @@
                <padding>
                   <Insets right="55.0" />
                </padding></Button>
-            <Button styleClass="grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#plusminus" text="+/–" GridPane.columnIndex="1" />
-            <Button styleClass="grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#percent" text="\%" GridPane.columnIndex="2" />
-            <Button styleClass="orange" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#division" text="÷" textFill="WHITE" GridPane.columnIndex="3" />
+            <Button styleClass="grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="+/–" GridPane.columnIndex="1" />
+            <Button styleClass="grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="\%" GridPane.columnIndex="2" />
+            <Button styleClass="orange" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="÷" textFill="WHITE" GridPane.columnIndex="3" />
             <Button styleClass="light-grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#btn8" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Button styleClass="light-grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#btn9" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button styleClass="orange" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="multiply" text="x" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button styleClass="orange" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0"  text="x" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
             <Button styleClass="light-grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#btn5" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <Button styleClass="light-grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#btn6" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
             <Button styleClass="light-grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#btn2" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <Button styleClass="light-grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#btn3" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <Button styleClass="light-grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#dot" text="·" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Button styleClass="light-grey" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0"  text="·" GridPane.columnIndex="2" GridPane.rowIndex="4">
                <font>
                   <Font size="19.0" />
                </font>
             </Button>
             <Button styleClass="orange" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#minus" text="—" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
             <Button styleClass="orange" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#plus" text="+" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-            <Button styleClass="orange" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" onAction="#equal" text="=" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button styleClass="orange" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="=" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4" />
          </children>
       </GridPane>
    </children>
