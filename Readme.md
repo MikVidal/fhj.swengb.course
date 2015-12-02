@@ -1,3 +1,20 @@
+# Lecture 06, 1.12
+
+- [Slides](material/presentations/lecture06.pdf)
+
+
+# Lab 05, 27,11
+
+- [Slides](material/presentations/lab05.pdf)
+
+# Lecture 05, 24.11
+
+- [Slides](material/presentations/lecture05.pdf)
+
+# Lab 04, 13,11
+
+- [Slides](material/presentations/lab04.pdf)
+
 # Lecture 04, 10.11
 
 - [Slides](material/presentations/lecture04.pdf)
