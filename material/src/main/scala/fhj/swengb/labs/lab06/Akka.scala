@@ -2,10 +2,6 @@ package fhj.swengb.labs.lab06
 
 import akka.actor.{Props, Actor}
 
-object Greeter {
-  case object Greet
-  case object Done
-}
 
 
 object Main {
@@ -26,6 +22,10 @@ class HelloWorld extends Actor {
   }
 
   def receive = {
+    object Greeter {
+      case object Greet
+      case object Done
+    }
     // when the greeter is done, stop this actor and with it the application
     case Greeter.Done => context.stop(self)
   }
